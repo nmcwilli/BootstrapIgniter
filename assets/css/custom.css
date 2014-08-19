@@ -1,0 +1,174 @@
+/* Custom CSS for BootstrapIgniter Project on GitHub
+By Neil McWilliam */
+
+/* html */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+/* Body */
+body{
+	max-width: 100%;
+	margin-top: 40px;
+}
+
+/* Navbar Links */
+.navbar-inverse .navbar-nav > li > a {
+    color: #DBDBDB;
+}
+.navbar-inverse .navbar-brand {
+    color: #DBDBDB;
+}
+
+/* Body Links */
+a:link {
+  color: #d0473d;
+  text-decoration: none;
+}
+a:visited {
+  color: #d0473d;
+  text-decoration: none;
+}
+a:hover{
+  color: #de5e54;
+  text-decoration: none;
+}
+a:active {
+  color: #d0473d;
+  text-decoration: none;
+}
+
+/* Button Overrides */
+a.btn:link { color: #333; }
+a.btn:visited { color: #333; }
+a.btn:hover { color: #333; }
+a.btn:active { color: #333; }
+a.btn-danger:link { color: #fff; }
+a.btn-danger:visited { color: #fff; }
+a.btn-danger:hover { color: #fff; }
+a.btn-danger:active { color: #fff; }
+a.btn-primary:link { color: #fff; }
+a.btn-primary:visited { color: #fff; }
+a.btn-primary:hover { color: #fff; }
+a.btn-primary:active { color: #fff; }
+
+/* Containers */
+.containerDarkGrey{
+  background-color: #101820;
+  margin: 0;
+  color: #FFF;
+  padding: 60px 35px 68px 35px;
+}
+.containerWhite {
+  background-color: #FFF;
+  margin: 0;
+  padding: 60px 35px 68px 35px;
+}
+.containerBlack {
+  background-color: #000;
+  margin: 0;
+  color: #FFF;
+  padding: 60px 35px 68px 35px;
+}
+.containerRed {
+  background-color: #FF5943;
+  margin: 0;
+  padding: 60px 35px 68px 35px;
+}
+.containerLightYellow {
+  background-color: #F7F8F3;
+  margin: 0;
+  padding: 60px 35px 68px 35px;
+}
+.containerOlive{
+  background-color: #DBDECF;
+  margin: 0;
+  padding: 60px 35px 68px 35px;
+}
+
+/* Small Box */
+.smallBox{
+  max-width: 400px;
+}
+
+/* Footer (sticky)
+-------------------------------------------------- */
+#footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #3F3A3A;
+  color: #999595;
+  /* Height set by @media */
+}
+.footer-container {
+  width: auto;
+  text-align: center;
+  padding: 0 35px;
+}
+.footer-container .footer-text {
+  margin: 20px 0;
+}
+
+/* MAIN RESOLUTIONS */
+
+/* ---------------------------------------- */
+/* Greater than 1200px */
+@media (min-width: 1200px){
+	
+	/* FOOTER */
+	body {
+	  /* Margin bottom by footer height */
+	  margin-bottom: 120px;
+	}
+	#footer {
+	  /* Fixed Footer Height */
+	  height: 120px;
+	}
+}
+
+/* ---------------------------------------- */
+/* Between 992px and 1199px */
+@media (min-width: 992px) and (max-width: 1199px) {
+	
+	/* FOOTER */
+	body {
+	  /* Margin bottom by footer height */
+	  margin-bottom: 120px;
+	}
+	#footer {
+	  /* Fixed Footer Height */
+	  height: 120px;
+	}
+}
+
+/* ---------------------------------------- */
+/* Between 768px and 991px */
+@media (min-width: 768px) and (max-width: 991px) {
+	
+	/* FOOTER */
+	body {
+	  /* Margin bottom by footer height */
+	  margin-bottom: 130px;
+	}
+	#footer {
+	  /* Fixed Footer Height */
+	  height: 130px;
+	}
+}
+
+/* ---------------------------------------- */
+/* Less than 767px */
+@media (max-width: 767px){
+	
+	/* FOOTER */
+	body {
+	  /* Margin bottom by footer height */
+	  margin-bottom: 160px;
+	}
+	#footer {
+	  /* Fixed Footer Height */
+	  height: 160px;
+	}
+}

@@ -81,6 +81,8 @@ No details available. More to come later.
 - <http://twitter.com/nmcwilli>
 - <http://github.com/nmcwilli>
 
+Credit goes to the creators of their respective products. 
+
 
 ## Copyright and license
 
